@@ -2,13 +2,14 @@ import { Box, Chip, Stack,Typography } from "@mui/material";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <Box sx={{marginBottom:20}}>
+      <Head>
+        <title>Next | Home</title>
+        <meta name="keyword" content="home"/>
+      </Head>
       <Stack alignItems='center' justifyContent='center'>
         <Image src="/1.png" width={500} height={250} marginTop={20} />
         <Stack alignSelf='flex-start' spacing={2} mb={10}>
