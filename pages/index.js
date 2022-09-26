@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="keyword" content="home"/>
       </Head>
       <Stack alignItems='center' justifyContent='center'>
-        <Image src="/1.png" width={500} height={250} marginTop={20} />
+        <Image src="/1.png" width={500} height={250} margintop={20} />
         <Stack alignSelf='flex-start' spacing={2} mb={10}>
           <Typography variant="h3">Introduction</Typography>
           <Typography color="gray">
